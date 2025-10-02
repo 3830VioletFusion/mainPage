@@ -1,9 +1,11 @@
 /*3830 members, these words are for you alone. */
 /*This is the CSS file for our website. A .css file manages how our website looks.*/
 body {
+    /*We set the background color to Black.*/
     background-color: rgb(0, 0, 0);
     text-align: center;
     font-family: Arial, sans-serif;
     color: rgb(242, 255, 0);
+    /*Text color to yellow*/
 
 }

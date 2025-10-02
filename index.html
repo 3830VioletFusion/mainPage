@@ -30,10 +30,16 @@
             <h2>Our awesome sponsors that let us do what we do best</h2>
         </section>
 
+        <!--Set up the grid for the sponsor logos. -->
         <style>
+
         .container{
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            /*Notice the different comment styles now that we swapped to CSS. ( <!-- to /* ) You can have both HTML and CSS in the same file! 
+            Mash it all together if you're a lazybones like me. Or not, if you have a shred of dignity left in your heart.*/
+
+            /*Back to the point. Each "1fr" adds a new column. This adds 4 columns. Right? fr fr fr fr */
+            grid-template-columns: 1fr 1fr 1fr 1fr; 
             gap: 8px;
             padding: 8px;
         }
@@ -47,31 +53,42 @@
         }
         </style>
 
+        <!--Sponsor logos rest here, along with links to their sites. Take note of the "height auto". The images are automatically set to 70 pixels high, and their width is automatically adjusted to match.-->
         <div class = "container">
             <div class = "img">
+                <!--Pinellas County School Board-->
                 <a href="https://www.pcsb.org"><img src="John_PCSB.png" style="width: auto; height: 70px;"></a>
             </div>
             <div class="img">
+                <!--Matterhackers-->
                 <a href="https://www.matterhackers.com/"><img src="MatterHackers.png" style="width: auto; height: 70px;"></a>
             </div>
             <div class="img">
+                <!--Matrix Machining-->
                 <a href="https://www.matrix-fl.com/"><img src="Matrix.webp" style="width: auto; height: 70px;"></a>
             </div>
             <div class="img">
+                <!--RTX, NOT NVIDIA, Formerly Raytheon-->
                 <a href="https://www.rtx.com/"><img src="RTX_ON.png" style="width: auto; height: 70px;"></a>
             </div>
             <div class="img">
+                <!--SainSmart-->
                 <a href="https://www.sainsmart.com/"><img src="Sainsmart.avif" style="width: auto; height: 70px;"></a>
             </div>
             <div class="img">
+                <!--Stainless Fabrication Inc-->
                 <a href="https://www.stainlessfabinc.com/"><img src="Stainlessfab.png" style="width: auto; height: 70px;"></a>
             </div>
             <div class="img">
+                <!--Tampa Bay Technology Alliance, you have to get donations through them. -->
                 <a href="https://www.tbtaonline.org/"><img src="TBTA.png" style="width: auto; height: 70px;"></a>
             </div>
             <div class="img">
+                <!--Polymaker-->
                 <a href="https://polymaker.com/"><img src="polymkr.svg" style="width: auto; height: 70px;"></a>
             </div>
-            
+            <!--Why'd they have to axe our funding bro-->
     </body>
 </html>
+<!--Crazy? I was crazy once. They locked me in a rubber room. A rubber room with rats!-->
+<!--Rats make me crazy. Crazy? I was crazy once.-->
